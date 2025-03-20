@@ -8,14 +8,36 @@
 </head>
 <body>
     <header>
-        <h1>Pretty Bible</h1>
+        <h1>Interactive Bible</h1>
+        <input type="text" id="search-bar" placeholder="Search for a verse...">
+        <button id="theme-toggle">Switch Theme</button>
     </header>
-
+    
     <main>
-        <section id="bible-container">
-            <p>Loading Bible...</p>
+        <section id="bible-display">
+            <article class="verse">
+                <h2>Genesis 1:1</h2>
+                <p>In the beginning God created the heavens and the earth.</p>
+            </article>
+            <!-- More verses will be dynamically added here -->
         </section>
+        
+        <aside id="sidebar">
+            <div id="quotes-section">
+                <h2>Quotes</h2>
+                <p>"Trust in the Lord with all your heart..." - Proverbs 3:5</p>
+            </div>
+            <div id="notes-section">
+                <h2>Notes</h2>
+                <textarea placeholder="Write your notes here..."></textarea>
+            </div>
+            <div id="dictionary-section">
+                <h2>Biblical Dictionary</h2>
+                <p><strong>Faith:</strong> Complete trust in God.</p>
+            </div>
+        </aside>
     </main>
+    
 
     <script src="js/bible.js"></script>
 </body>
