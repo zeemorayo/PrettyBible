@@ -1,0 +1,23 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #ec0493; /* Soft purple */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+/* Main content */
+main {
+    display: flex;
+    justify-content: center;
+    align-ite
+}
