@@ -14,19 +14,36 @@ body {
     padding: 20px;
 }
 
-/* Header */
 header {
-    background-color: #ffdadb; /* Soft pink */
-    color: #5a3e36; /* Deep brown for contrast */
+    background-color: #c2087b;
+    color: #ffffff; 
     padding: 15px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    gap: 10px; /* Space between elements */
 }
 
-/* Bible Container */
-#bible-container {
-    background: white;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+/* Styling for search bar and button */
+#search-bar {
+    padding: 10px;
+    width: 60%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+}
+
+#theme-toggle {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffaad4;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#theme-toggle:hover {
+    background-color: #ff8fcf;
 }
