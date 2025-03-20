@@ -47,3 +47,16 @@ header {
 #theme-toggle:hover {
     background-color: #ff8fcf;
 }
+
+/* Light Mode (Default) */
+body.light-mode {
+    background-color: #f9f5f0;
+    color: #333;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
