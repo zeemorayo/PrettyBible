@@ -1,23 +1,32 @@
-/* Reset some default styles */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Style the header */
+/* Body Styling */
+body {
+    background-color: #f9f5f0; /* Soft warm background */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header */
 header {
-    background-color: #ec0493; /* Soft purple */
-    color: white;
-    text-align: center;
+    background-color: #ffdadb; /* Soft pink */
+    color: #5a3e36; /* Deep brown for contrast */
     padding: 15px;
-    font-size: 1.5rem;
+    border-radius: 10px;
 }
 
-
-main {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+/* Bible Container */
+#bible-container {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
