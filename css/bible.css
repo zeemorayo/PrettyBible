@@ -60,3 +60,9 @@ body.dark-mode {
     color: #fff;
 }
 
+.highlighted {
+    background-color: #ffcfda; /* Soft pink highlight */
+    border-radius: 5px;
+    padding: 5px;
+    transition: background 0.3s ease-in-out;
+}
