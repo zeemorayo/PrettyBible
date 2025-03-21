@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .map(verse => verse.innerText);
         localStorage.setItem("highlightedVerses", JSON.stringify(highlightedVerses));
         loadHighlights();
-    }
+    } 
 
     function loadHighlights() {
         const savedHighlights = JSON.parse(localStorage.getItem("highlightedVerses")) || [];
