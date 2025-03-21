@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
             saveHighlights();
         }
     });
-    
+
 
     function saveHighlights() {
         const highlightedVerses = Array.from(document.querySelectorAll(".highlighted"))
